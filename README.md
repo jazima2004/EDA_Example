@@ -2,7 +2,7 @@
 This project is to showcase my  skills in exploratory data analysis:
 ---
 
-## 🗂️ **1. Data Loading**
+##  **1. Data Loading**
 
 * **Imported necessary libraries**: `pandas`, `numpy`, `seaborn`, `matplotlib` for data manipulation and visualization.
 * **Loaded the dataset** from CSV file using `pd.read_csv`.
@@ -10,7 +10,7 @@ This project is to showcase my  skills in exploratory data analysis:
 
 ---
 
-## 🧼 **2. Data Cleaning**
+## **2. Data Cleaning**
 
 * **Inspected data types** using `df.dtypes` to distinguish between categorical and numerical features.
 * **Checked for missing values** using `df.isnull().sum()` and visualized them with a seaborn heatmap.
@@ -18,7 +18,7 @@ This project is to showcase my  skills in exploratory data analysis:
 
 ---
 
-## 🛠️ **3. Feature Engineering**
+##  **3. Feature Engineering**
 
 * **Label encoded the 'type' column** (Movie/TV Show) using `LabelEncoder`, creating a new binary column `show_type`.
 * **Extracted duration values**:
@@ -29,7 +29,7 @@ This project is to showcase my  skills in exploratory data analysis:
 
 ---
 
-## 📊 **4. Univariate Analysis**
+## **4. Univariate Analysis**
 
 * **Content Ratings**: Identified most common ratings like `TV-MA`, `PG-13`, etc., and plotted a bar chart.
 * **Countries**: Plotted top 10 countries producing Netflix content.
@@ -41,20 +41,20 @@ This project is to showcase my  skills in exploratory data analysis:
 
 ---
 
-## 📝 **5. Text Analysis**
+## **5. Text Analysis**
 
 * **Word Cloud**: Generated a word cloud from the `title` column to highlight frequent words used in Netflix titles.
 
 ---
 
-## 📈 **6. Bivariate & Distribution Analysis**
+## **6. Bivariate & Distribution Analysis**
 
 * **Movie Duration Histogram**: Showed how movie durations vary, highlighting common length intervals.
 * **TV Shows by Seasons**: Bar chart showing how many shows have 1, 2, 3... seasons.
 
 ---
 
-## 🔗 **7. Correlation Analysis**
+## **7. Correlation Analysis**
 
 * **Correlation Heatmap**: Displayed relationships between numerical features like `show_type` and durations.
 
